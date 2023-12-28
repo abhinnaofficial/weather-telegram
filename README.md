@@ -25,8 +25,8 @@ Before you begin, ensure you have the following installed:
 
 3. Configure Telegram Bot
 
-  Create a new Telegram bot on BotFather.
-  Copy the bot token.
+    Create a new Telegram bot on BotFather.
+    Copy the bot token.
 
 4. Set Environment Variables
 
@@ -36,16 +36,16 @@ Before you begin, ensure you have the following installed:
    TELEGRAM_BOT_TOKEN=your_bot_token_here
 
 5. Run the Application
-
-  ```bash
-  npm run start
+  
+    ```bash
+    npm run start
 
   The application will run on http://localhost:3000.
 
 6. Set Up ngrok (for local development)
 
-  ```bash
-  ngrok http 3000
+    ```bash
+    ngrok http 3000
 
   Copy the ngrok URL (e.g., https://your-ngrok-id.ngrok.io)
 
@@ -53,8 +53,8 @@ Before you begin, ensure you have the following installed:
 
   Use the Telegram Bot API to set the webhook:
 
-  ```bash
-  curl -F "url=https://your-ngrok-id.ngrok.io/webhook" https://api.telegram.org/bot<YOUR_BOT_TOKEN>/setWebhook
+    ```bash
+    curl -F "url=https://your-ngrok-id.ngrok.io/webhook" https://api.telegram.org/bot<YOUR_BOT_TOKEN>/setWebhook
 
   Replace <YOUR_BOT_TOKEN> and your-ngrok-id with your bot token and ngrok ID.  
 
@@ -63,5 +63,5 @@ Before you begin, ensure you have the following installed:
   Access the admin panel by visiting http://localhost:3000/admin in your browser.
 
   Contributing
-  
+
   Feel free to contribute to this project by submitting issues or pull requests.
